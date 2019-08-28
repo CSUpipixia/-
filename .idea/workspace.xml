@@ -1,0 +1,1099 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="88.Meeting:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ede8152a-7364-482a-97d9-7edec41de43d" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/88_Meeting_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/gson_2_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Meeting.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.annotation.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.ejb.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.jms.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.persistence.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.resource.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jsp.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.transaction.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/My97DatePicker/My97DatePicker.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/My97DatePicker/WdatePicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/My97DatePicker/calendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/My97DatePicker/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/My97DatePicker/lang/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/My97DatePicker/lang/zh-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/My97DatePicker/lang/zh-tw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/My97DatePicker/skin/WdatePicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/My97DatePicker/skin/datePicker.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/My97DatePicker/skin/default/datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/My97DatePicker/skin/default/img.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/My97DatePicker/skin/whyGreen/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/My97DatePicker/skin/whyGreen/datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/My97DatePicker/skin/whyGreen/img.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/My97DatePicker/开发包/lang/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/My97DatePicker/开发包/lang/zh-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/My97DatePicker/开发包/lang/zh-tw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/My97DatePicker/开发包/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/My97DatePicker/开发包/skin/WdatePicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/My97DatePicker/开发包/skin/datePicker.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/My97DatePicker/开发包/skin/default/datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/My97DatePicker/开发包/skin/default/img.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/My97DatePicker/开发包/skin/whyGreen/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/My97DatePicker/开发包/skin/whyGreen/datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/My97DatePicker/开发包/skin/whyGreen/img.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/WEB-INF/classes/org/sang/bean/Department.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/WEB-INF/classes/org/sang/bean/Employee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/WEB-INF/classes/org/sang/bean/Meeting.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/WEB-INF/classes/org/sang/bean/MeetingRoom.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/WEB-INF/classes/org/sang/dao/CountDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/WEB-INF/classes/org/sang/dao/DBUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/WEB-INF/classes/org/sang/dao/DepartmentDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/WEB-INF/classes/org/sang/dao/EmployeeDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/WEB-INF/classes/org/sang/dao/MeetingDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/WEB-INF/classes/org/sang/dao/MeetingParticipantsDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/WEB-INF/classes/org/sang/dao/MeetingRoomDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/WEB-INF/classes/org/sang/filter/EncodingFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/WEB-INF/classes/org/sang/filter/PermissFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/WEB-INF/classes/org/sang/listener/VisitCountListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/WEB-INF/classes/org/sang/service/DepartmentService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/WEB-INF/classes/org/sang/service/EmployeeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/WEB-INF/classes/org/sang/service/MeetingRoomService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/WEB-INF/classes/org/sang/service/MeetingService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/WEB-INF/classes/org/sang/servlet/AddDepServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/WEB-INF/classes/org/sang/servlet/AddMeetingRoomServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/WEB-INF/classes/org/sang/servlet/ApproveaccountServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/WEB-INF/classes/org/sang/servlet/BookMeetingServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/WEB-INF/classes/org/sang/servlet/CancelMeetingServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/WEB-INF/classes/org/sang/servlet/ChangePasswordServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/WEB-INF/classes/org/sang/servlet/DeductCreditsServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/WEB-INF/classes/org/sang/servlet/DeleteDepSerlvet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/WEB-INF/classes/org/sang/servlet/DepartmentsServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/WEB-INF/classes/org/sang/servlet/DoBookMeetingServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/WEB-INF/classes/org/sang/servlet/DoCancelMeetingServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/WEB-INF/classes/org/sang/servlet/DoChangePasswordServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/WEB-INF/classes/org/sang/servlet/DoRegServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/WEB-INF/classes/org/sang/servlet/GetAllDepJsonServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/WEB-INF/classes/org/sang/servlet/GetAllMeetingRoomServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/WEB-INF/classes/org/sang/servlet/GetEmpByDepIdServlete.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/WEB-INF/classes/org/sang/servlet/LoginServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/WEB-INF/classes/org/sang/servlet/MeetingDetailsServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/WEB-INF/classes/org/sang/servlet/MyBookingServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/WEB-INF/classes/org/sang/servlet/MyMeetingServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/WEB-INF/classes/org/sang/servlet/NotificationsServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/WEB-INF/classes/org/sang/servlet/RegServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/WEB-INF/classes/org/sang/servlet/ResetCreditsServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/WEB-INF/classes/org/sang/servlet/RoomdetailsServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/WEB-INF/classes/org/sang/servlet/SearchEmployeeServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/WEB-INF/classes/org/sang/servlet/SearchMeetingServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/WEB-INF/classes/org/sang/servlet/UpdateDepServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/WEB-INF/classes/org/sang/servlet/UpdateEmpStatusServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/WEB-INF/lib/gson-2.8.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/WEB-INF/lib/jstl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/WEB-INF/lib/mchange-commons-java-0.2.3.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/WEB-INF/lib/mysql-connector-java-5.1.46.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/WEB-INF/lib/standard.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/addmeetingroom.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/approveaccount.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/bookmeeting.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/cancelmeeting.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/changepassword.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/css/Login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/css/jpetstore.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/css/lightbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/departments.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/images/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/images/Tiger Shark.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/images/arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/images/arrow1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/images/arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/images/banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/images/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/images/icon1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/images/lizard1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/images/next.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/images/poweredby.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/images/prev.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/images/separator.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/images/~$00.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/js/SmoothScroll.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/js/easing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/js/jquery-1.11.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/js/lightbox-plus-jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/js/move-top.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/js/responsiveslides.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/leftMenu.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/meetingdetails.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/meetingrooms.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/mybookings.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/mymeetings.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/notifications.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/roomdetails.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/searchemployees.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/searchmeetings.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/top.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Meeting/org/sang/bean/Department.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Meeting/org/sang/bean/Employee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Meeting/org/sang/bean/Meeting.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Meeting/org/sang/bean/MeetingRoom.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Meeting/org/sang/dao/CountDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Meeting/org/sang/dao/DBUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Meeting/org/sang/dao/DepartmentDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Meeting/org/sang/dao/EmployeeDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Meeting/org/sang/dao/MeetingDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Meeting/org/sang/dao/MeetingParticipantsDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Meeting/org/sang/dao/MeetingRoomDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Meeting/org/sang/filter/EncodingFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Meeting/org/sang/filter/PermissFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Meeting/org/sang/listener/VisitCountListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Meeting/org/sang/service/DepartmentService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Meeting/org/sang/service/EmployeeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Meeting/org/sang/service/MeetingRoomService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Meeting/org/sang/service/MeetingService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Meeting/org/sang/servlet/AddDepServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Meeting/org/sang/servlet/AddMeetingRoomServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Meeting/org/sang/servlet/ApproveaccountServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Meeting/org/sang/servlet/BookMeetingServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Meeting/org/sang/servlet/CancelMeetingServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Meeting/org/sang/servlet/ChangePasswordServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Meeting/org/sang/servlet/DeductCreditsServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Meeting/org/sang/servlet/DeleteDepSerlvet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Meeting/org/sang/servlet/DepartmentsServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Meeting/org/sang/servlet/DoBookMeetingServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Meeting/org/sang/servlet/DoCancelMeetingServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Meeting/org/sang/servlet/DoChangePasswordServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Meeting/org/sang/servlet/DoRegServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Meeting/org/sang/servlet/GetAllDepJsonServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Meeting/org/sang/servlet/GetAllMeetingRoomServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Meeting/org/sang/servlet/GetEmpByDepIdServlete.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Meeting/org/sang/servlet/LoginServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Meeting/org/sang/servlet/MeetingDetailsServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Meeting/org/sang/servlet/MyBookingServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Meeting/org/sang/servlet/MyMeetingServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Meeting/org/sang/servlet/NotificationsServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Meeting/org/sang/servlet/RegServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Meeting/org/sang/servlet/ResetCreditsServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Meeting/org/sang/servlet/RoomdetailsServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Meeting/org/sang/servlet/SearchEmployeeServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Meeting/org/sang/servlet/SearchMeetingServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Meeting/org/sang/servlet/UpdateDepServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Meeting/org/sang/servlet/UpdateEmpStatusServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/sang/bean/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/sang/bean/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/sang/bean/Meeting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/sang/bean/MeetingRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/sang/dao/CountDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/sang/dao/DBUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/sang/dao/DepartmentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/sang/dao/EmployeeDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/sang/dao/MeetingDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/sang/dao/MeetingParticipantsDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/sang/dao/MeetingRoomDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/sang/filter/EncodingFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/sang/filter/PermissFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/sang/listener/VisitCountListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/sang/service/DepartmentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/sang/service/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/sang/service/MeetingRoomService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/sang/service/MeetingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/sang/servlet/AddDepServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/sang/servlet/AddMeetingRoomServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/sang/servlet/ApproveaccountServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/sang/servlet/BookMeetingServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/sang/servlet/CancelMeetingServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/sang/servlet/ChangePasswordServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/sang/servlet/DeductCreditsServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/sang/servlet/DeleteDepSerlvet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/sang/servlet/DepartmentsServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/sang/servlet/DoBookMeetingServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/sang/servlet/DoCancelMeetingServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/sang/servlet/DoChangePasswordServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/sang/servlet/DoRegServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/sang/servlet/GetAllDepJsonServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/sang/servlet/GetAllMeetingRoomServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/sang/servlet/GetEmpByDepIdServlete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/sang/servlet/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/sang/servlet/MeetingDetailsServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/sang/servlet/MyBookingServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/sang/servlet/MyMeetingServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/sang/servlet/NotificationsServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/sang/servlet/RegServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/sang/servlet/ResetCreditsServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/sang/servlet/RoomdetailsServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/sang/servlet/SearchEmployeeServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/sang/servlet/SearchMeetingServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/sang/servlet/UpdateDepServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/sang/servlet/UpdateEmpStatusServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/My97DatePicker/My97DatePicker.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/My97DatePicker/WdatePicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/My97DatePicker/calendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/My97DatePicker/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/My97DatePicker/lang/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/My97DatePicker/lang/zh-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/My97DatePicker/lang/zh-tw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/My97DatePicker/skin/WdatePicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/My97DatePicker/skin/datePicker.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/My97DatePicker/skin/default/datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/My97DatePicker/skin/default/img.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/My97DatePicker/skin/whyGreen/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/My97DatePicker/skin/whyGreen/datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/My97DatePicker/skin/whyGreen/img.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/My97DatePicker/开发包/lang/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/My97DatePicker/开发包/lang/zh-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/My97DatePicker/开发包/lang/zh-tw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/My97DatePicker/开发包/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/My97DatePicker/开发包/skin/WdatePicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/My97DatePicker/开发包/skin/datePicker.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/My97DatePicker/开发包/skin/default/datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/My97DatePicker/开发包/skin/default/img.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/My97DatePicker/开发包/skin/whyGreen/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/My97DatePicker/开发包/skin/whyGreen/datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/My97DatePicker/开发包/skin/whyGreen/img.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/gson-2.8.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/jstl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/mchange-commons-java-0.2.3.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-5.1.46.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/standard.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/addmeetingroom.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/approveaccount.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bookmeeting.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/cancelmeeting.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/changepassword.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/Login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/jpetstore.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/lightbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/departments.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/Tiger Shark.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/arrow1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icon1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/lizard1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/next.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/poweredby.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/prev.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/separator.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/~$00.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/SmoothScroll.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/easing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/jquery-1.11.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/lightbox-plus-jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/move-top.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/responsiveslides.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/leftMenu.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/meetingdetails.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/meetingrooms.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/mybookings.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/mymeetings.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/notifications.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/roomdetails.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/searchemployees.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/searchmeetings.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/top.jsp" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/images/logo.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/images/arrow1.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/images/close.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/sang/servlet/DoBookMeetingServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/org/sang/listener/VisitCountListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/sang/filter/EncodingFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/sang/filter/PermissFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Meeting.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/images/arrows.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/images/prev.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>clickbutton</find>
+      <find>listtable</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>btn btn-success</replace>
+      <replace>table</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/org/sang/dao/DBUtils.java" />
+        <option value="$PROJECT_DIR$/src/org/sang/dao/DepartmentDao.java" />
+        <option value="$PROJECT_DIR$/src/org/sang/dao/MeetingParticipantsDao.java" />
+        <option value="$PROJECT_DIR$/src/org/sang/dao/MeetingRoomDao.java" />
+        <option value="$PROJECT_DIR$/src/org/sang/filter/EncodingFilter.java" />
+        <option value="$PROJECT_DIR$/src/org/sang/filter/PermissFilter.java" />
+        <option value="$PROJECT_DIR$/src/org/sang/listener/VisitCountListener.java" />
+        <option value="$PROJECT_DIR$/src/org/sang/service/DepartmentService.java" />
+        <option value="$PROJECT_DIR$/src/org/sang/service/EmployeeService.java" />
+        <option value="$PROJECT_DIR$/src/org/sang/service/MeetingRoomService.java" />
+        <option value="$PROJECT_DIR$/src/org/sang/service/MeetingService.java" />
+        <option value="$PROJECT_DIR$/src/org/sang/servlet/BookMeetingServlet.java" />
+        <option value="$PROJECT_DIR$/src/org/sang/servlet/CancelMeetingServlet.java" />
+        <option value="$PROJECT_DIR$/src/org/sang/servlet/DoCancelMeetingServlet.java" />
+        <option value="$PROJECT_DIR$/src/org/sang/servlet/GetAllDepJsonServlet.java" />
+        <option value="$PROJECT_DIR$/src/org/sang/servlet/GetAllMeetingRoomServlet.java" />
+        <option value="$PROJECT_DIR$/src/org/sang/servlet/GetEmpByDepIdServlete.java" />
+        <option value="$PROJECT_DIR$/src/org/sang/servlet/LoginServlet.java" />
+        <option value="$PROJECT_DIR$/src/org/sang/servlet/MeetingDetailsServlet.java" />
+        <option value="$PROJECT_DIR$/src/org/sang/servlet/MyBookingServlet.java" />
+        <option value="$PROJECT_DIR$/src/org/sang/servlet/MyMeetingServlet.java" />
+        <option value="$PROJECT_DIR$/src/org/sang/servlet/NotificationsServlet.java" />
+        <option value="$PROJECT_DIR$/src/org/sang/servlet/RoomdetailsServlet.java" />
+        <option value="$PROJECT_DIR$/web/top.jsp" />
+        <option value="$PROJECT_DIR$/web/departments.jsp" />
+        <option value="$PROJECT_DIR$/web/searchmeetings.jsp" />
+        <option value="$PROJECT_DIR$/src/org/sang/servlet/DepartmentsServlet.java" />
+        <option value="$PROJECT_DIR$/src/org/sang/servlet/RegServlet.java" />
+        <option value="$PROJECT_DIR$/src/org/sang/servlet/ApproveaccountServlet.java" />
+        <option value="$PROJECT_DIR$/src/org/sang/servlet/SearchEmployeeServlet.java" />
+        <option value="$PROJECT_DIR$/src/org/sang/servlet/SearchMeetingServlet.java" />
+        <option value="$PROJECT_DIR$/src/org/sang/servlet/UpdateDepServlet.java" />
+        <option value="$PROJECT_DIR$/src/org/sang/servlet/UpdateEmpStatusServlet.java" />
+        <option value="$PROJECT_DIR$/src/org/sang/servlet/AddDepServlet.java" />
+        <option value="$PROJECT_DIR$/src/org/sang/servlet/AddMeetingRoomServlet.java" />
+        <option value="$PROJECT_DIR$/src/org/sang/servlet/DeductCreditsServlet.java" />
+        <option value="$PROJECT_DIR$/src/org/sang/servlet/DeleteDepSerlvet.java" />
+        <option value="$PROJECT_DIR$/src/org/sang/dao/MeetingDao.java" />
+        <option value="$PROJECT_DIR$/src/org/sang/servlet/DoBookMeetingServlet.java" />
+        <option value="$PROJECT_DIR$/web/roomdetails.jsp" />
+        <option value="$PROJECT_DIR$/web/meetingrooms.jsp" />
+        <option value="$PROJECT_DIR$/web/mybookings.jsp" />
+        <option value="$PROJECT_DIR$/web/bookmeeting.jsp" />
+        <option value="$PROJECT_DIR$/web/searchemployees.jsp" />
+        <option value="$PROJECT_DIR$/src/org/sang/dao/EmployeeDao.java" />
+        <option value="$PROJECT_DIR$/src/org/sang/bean/Employee.java" />
+        <option value="$PROJECT_DIR$/web/leftMenu.jsp" />
+        <option value="$PROJECT_DIR$/web/register.jsp" />
+        <option value="$PROJECT_DIR$/src/org/sang/servlet/DoRegServlet.java" />
+        <option value="$PROJECT_DIR$/web/addmeetingroom.jsp" />
+        <option value="$PROJECT_DIR$/web/footer.jsp" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="100" />
+    <option name="y" value="-10" />
+    <option name="width" value="920" />
+    <option name="height" value="1090" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Meeting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Meeting" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Projects\IdeaProjects\MeetingRoom\Meeting\web" />
+      <recent name="F:\Projects\IdeaProjects\MeetingRoom\Meeting\web\WEB-INF" />
+      <recent name="E:\workspace\workspace2\88.Meeting\web\WEB-INF" />
+      <recent name="E:\workspace\workspace2\88.Meeting\web" />
+      <recent name="E:\workspace\workspace2\88.Meeting\src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.12">
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MeetingDao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.sang.dao.MeetingDao" />
+      <module name="88.Meeting" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.sang.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="88.Meeting" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <module name="" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 8.5.12" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.35" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="88.Meeting:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/meeting" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_8_5_12_88_Meeting_2" />
+        <option name="HTTP_PORT" value="8999" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="51490" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="88.Meeting:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.MeetingDao" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5.12" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MeetingDao" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ede8152a-7364-482a-97d9-7edec41de43d" name="Default" comment="" />
+      <created>1503450939690</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1503450939690</updated>
+      <workItem from="1503450943481" duration="5782000" />
+      <workItem from="1503468174377" duration="6861000" />
+      <workItem from="1566179766791" duration="4864000" />
+      <workItem from="1566349600000" duration="21759000" />
+      <workItem from="1566381172266" duration="3466000" />
+      <workItem from="1566456003249" duration="11290000" />
+      <workItem from="1566735348360" duration="72000" />
+      <workItem from="1566737825274" duration="606000" />
+      <workItem from="1566806892927" duration="503000" />
+      <workItem from="1566870576930" duration="82000" />
+      <workItem from="1566870668531" duration="973000" />
+      <workItem from="1566875731957" duration="651000" />
+      <workItem from="1566995963721" duration="952000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="57861000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="83" y="-7" width="1460" height="878" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27532098" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Nl-Palette" order="7" />
+      <window_info id="Web" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3145917" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39892906" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32931727" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Statistic" order="14" />
+      <window_info anchor="bottom" id="Database Changes" order="15" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Properties" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Maven" order="10" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23109843" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Nl-Palette" order="7" />
+      <window_info id="Web" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32262382" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Statistic" order="14" />
+      <window_info anchor="bottom" id="Database Changes" order="15" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Properties" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Maven" order="10" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/web/images/arrow.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/images/banner_birds.gif" />
+    <entry file="file://$PROJECT_DIR$/web/images/cat2.gif" />
+    <entry file="file://$PROJECT_DIR$/web/images/cat1.gif" />
+    <entry file="file://$PROJECT_DIR$/web/images/cart.gif" />
+    <entry file="file://$PROJECT_DIR$/web/images/dog1.gif" />
+    <entry file="file://$PROJECT_DIR$/web/images/fish.gif" />
+    <entry file="file://$PROJECT_DIR$/web/images/finch.jpg" />
+    <entry file="file://$PROJECT_DIR$/web/images/g1.jpg" />
+    <entry file="file://$PROJECT_DIR$/web/images/logo-topbar.gif" />
+    <entry file="file://$PROJECT_DIR$/web/images/t1.jpg" />
+    <entry file="file://$PROJECT_DIR$/web/images/t2.jpg" />
+    <entry file="file://$PROJECT_DIR$/web/images/t4.jpg" />
+    <entry file="file://$PROJECT_DIR$/web/images/splash.gif" />
+    <entry file="file://$PROJECT_DIR$/web/images/snake1.gif" />
+    <entry file="file://$PROJECT_DIR$/web/images/sm_reptiles.gif" />
+    <entry file="file://$PROJECT_DIR$/web/images/sm_fish.gif" />
+    <entry file="file://$PROJECT_DIR$/web/images/sm_dogs.gif" />
+    <entry file="file://$PROJECT_DIR$/web/images/sm_cats.gif" />
+    <entry file="file://$PROJECT_DIR$/web/images/sm_birds.gif" />
+    <entry file="file://$PROJECT_DIR$/web/images/Tiger Shark.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/images/rattlesnake.jpg" />
+    <entry file="file://$PROJECT_DIR$/web/images/poodle.jpg" />
+    <entry file="file://$PROJECT_DIR$/web/images/Persian.jpg" />
+    <entry file="file://$PROJECT_DIR$/web/images/next.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/images/manx.jpg" />
+    <entry file="file://$PROJECT_DIR$/web/images/koi.jpg" />
+    <entry file="file://$PROJECT_DIR$/web/images/Iguana.jpg" />
+    <entry file="file://$PROJECT_DIR$/web/images/Goldfish.jpg" />
+    <entry file="file://$PROJECT_DIR$/web/images/golden retriever.jpg" />
+    <entry file="file://$PROJECT_DIR$/web/images/fish_icon.gif" />
+    <entry file="file://$PROJECT_DIR$/web/images/dogs_icon.gif" />
+    <entry file="file://$PROJECT_DIR$/web/images/dalmation.jpg" />
+    <entry file="file://$PROJECT_DIR$/web/images/chihuahua.jpg" />
+    <entry file="file://$PROJECT_DIR$/web/images/bulldog.jpg" />
+    <entry file="file://$PROJECT_DIR$/web/images/poweredby.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/images/separator.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/images/reptiles_icon.gif" />
+    <entry file="file://$PROJECT_DIR$/web/images/Labrador Retriever.jpg" />
+    <entry file="file://$PROJECT_DIR$/web/images/cats_icon.gif" />
+    <entry file="file://$PROJECT_DIR$/web/images/banner.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/images/logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/images/arrow1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/images/close.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/sang/servlet/DoBookMeetingServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/images/arrows.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/images/prev.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/sang/filter/PermissFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Meeting.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/sang/filter/EncodingFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/sang/listener/VisitCountListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>88.Meeting:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web|88.Meeting</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
