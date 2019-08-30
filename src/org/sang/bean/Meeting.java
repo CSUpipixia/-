@@ -6,18 +6,18 @@ public class Meeting {
     private int meetingid;
     private String meetingname;
     private int roomid;
-    private int reservationistid;
+    private int reservationistid;//
     private int numberofparticipants;
     private Timestamp starttime;
     private Timestamp endtime;
     private Timestamp reservationtime;
-    private Timestamp canceledtime;
+    private Timestamp canceledtime;//
     private String description;
-    private int status;
+    private int status;//
     private int deductcredits;
     private String roomname;
     private String empname;
-    private String canceledreason;
+    private String canceledreason;//
 
     public String getCanceledreason() {
         return canceledreason;

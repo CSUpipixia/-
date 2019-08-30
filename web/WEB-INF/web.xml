@@ -36,6 +36,14 @@
         <url-pattern>/login</url-pattern>
     </servlet-mapping>
     <servlet>
+        <servlet-name>logoutServlet</servlet-name>
+        <servlet-class>org.sang.servlet.LogoutServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>logoutServlet</servlet-name>
+        <url-pattern>/logout</url-pattern>
+    </servlet-mapping>
+    <servlet>
         <servlet-name>ChangePasswordServlet</servlet-name>
         <servlet-class>org.sang.servlet.ChangePasswordServlet</servlet-class>
     </servlet>

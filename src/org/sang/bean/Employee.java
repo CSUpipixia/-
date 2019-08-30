@@ -1,4 +1,5 @@
 package org.sang.bean;
+//人员
 
 public class Employee {
     private int employeeid;
@@ -6,12 +7,13 @@ public class Employee {
     private String username;
     private String phone;
     private String email;
-    private int status;
+    private int status;//
 
     private int departmentid;
     private String password;
-    private int credits;
-    private int role;
+    private int credits;//信誉积分
+    private int role;//
+
 
     public Employee(String employeename, String username, String phone, String email, int departmentid) {
         this.employeename = employeename;
@@ -125,4 +127,5 @@ public class Employee {
     public void setCredits(int credits) {
         this.credits = credits;
     }
+
 }

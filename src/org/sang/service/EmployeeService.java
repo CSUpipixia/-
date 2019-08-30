@@ -7,6 +7,7 @@ import java.util.List;
 
 public class EmployeeService {
     private EmployeeDao employeeDao = new EmployeeDao();
+    private int flag;
     private Employee loginUser;
     public List<Employee> searchEmp(String employeename, String username, int status, int page, int count) {
         return employeeDao.searchEmp(employeename, username, status, page, count);
@@ -33,7 +34,7 @@ public class EmployeeService {
         if (loginEmp == null) {
             return result;
         }else{
-            this.loginUser = loginEmp;
+            this.loginUser = loginEmp;//改变了loginUser
             return loginEmp.getStatus();
         }
     }

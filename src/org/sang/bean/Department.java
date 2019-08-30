@@ -1,7 +1,8 @@
 package org.sang.bean;
+//部门
 
 public class Department {
-    private int departmentid;
+    private int departmentid;//唯一标识符
     private String departmentname;
 
     public Department() {

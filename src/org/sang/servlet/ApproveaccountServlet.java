@@ -20,7 +20,7 @@ public class ApproveaccountServlet extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        int loginEmpRole = ((Employee) req.getSession().getAttribute("loginUser")).getRole();
+        int loginEmpRole = ((Employee) req.getSession().getAttribute("loginUser")).getRole();//service中的loginUser
         if (loginEmpRole != 1)
             req.getRequestDispatcher("/notifications.jsp").forward(req, resp);
 

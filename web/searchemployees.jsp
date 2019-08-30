@@ -105,15 +105,34 @@
                             <td>${emp.email}</td>
                             <td>${emp.credits}</td>
                             <td>
-                                <form method="post" action="/meeting/serachemp">
-                                    <input class="form-control" type="hidden" name="employeename"
-                                           value="${employeename}">
-                                    <input class="form-control" type="hidden" name="username" value="${username}">
-                                    <input class="form-control" type="hidden" name="status" value="${status}">
-                                    <input class="form-control" type="hidden" name="updateStatus" value="-1">
-                                    <input class="form-control" type="hidden" name="empid" value="${emp.employeeid}">
-                                    <input class="btn btn-danger btn-sm" value="关闭账号" type="submit"></input>
-                                </form>
+                                <c:if test="${emp.status==1}">
+                                    <form method="post" action="/meeting/serachemp">
+                                        <input class="form-control" type="hidden" name="employeename"
+                                               value="${employeename}">
+                                        <input class="form-control" type="hidden" name="username" value="${username}">
+                                        <input class="form-control" type="hidden" name="status" value="${status}">
+                                        <input class="form-control" type="hidden" name="updateStatus" value="-1">
+                                        <input class="form-control" type="hidden" name="empid" value="${emp.employeeid}">
+
+                                        <input class="btn btn-danger btn-sm" value="关闭账号" type="submit"></input>
+
+                                    </form>
+                                </c:if>
+                                <c:if test="${emp.status==-1}">
+                                    <form method="post" action="/meeting/serachemp">
+                                        <input class="form-control" type="hidden" name="employeename"
+                                               value="${employeename}">
+                                        <input class="form-control" type="hidden" name="username" value="${username}">
+                                        <input class="form-control" type="hidden" name="status" value="${status}">
+                                        <input class="form-control" type="hidden" name="updateStatus" value="1">
+                                        <input class="form-control" type="hidden" name="empid" value="${emp.employeeid}">
+
+                                        <c:if test="${emp.status==-1}">
+                                            <input class="btn btn-danger btn-sm" value="激活账号" type="submit"></input>
+                                        </c:if>
+                                    </form>
+                                </c:if>
+
                                 <form method="post" action="/meeting/resetcredits">
                                     <input class="form-control" type="hidden" name="eid" value="${emp.employeeid}">
                                     <input class="btn btn-warning btn-sm" value="重置积分" type="submit"></input>

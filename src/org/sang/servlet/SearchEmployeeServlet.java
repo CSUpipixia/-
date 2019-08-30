@@ -25,10 +25,17 @@ public class SearchEmployeeServlet extends HttpServlet {
             req.getRequestDispatcher("/notifications.jsp").forward(req, resp);
 
         String updateStatus = req.getParameter("updateStatus");
+        //更新用户status
         if (updateStatus != null && "-1".equals(updateStatus)) {
             String empid = req.getParameter("empid");
             employeeService.updateEmpStatusById(Integer.parseInt(empid), Integer.parseInt(updateStatus));
         }
+
+        if (updateStatus != null && "1".equals(updateStatus)) {
+            String empid = req.getParameter("empid");
+            employeeService.updateEmpStatusById(Integer.parseInt(empid), Integer.parseInt(updateStatus));
+        }
+
         String employeename = req.getParameter("employeename");
         String username = req.getParameter("username");
         String status = req.getParameter("status");

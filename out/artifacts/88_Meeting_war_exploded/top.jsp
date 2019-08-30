@@ -31,12 +31,13 @@
             </div>
             <div class="header-right">
                 <div class="agileinfo-social-grids">
-                    <c:if test="${loginUser!=null}">
+                    <c:if test="${loginUser!=null}"> <!--以下为添加部分-->
                         <div>
                             欢迎您,<strong>${loginUser.employeename}</strong><br>
                             您当前信誉积分为<strong>${loginUser.credits}</strong>
                         </div>
                         <a href="/meeting/changepassword">[修改密码]</a>
+                        <a href="/meeting/logout">[退出登录]</a>
                     </c:if>
                 </div>
                 <div class="clearfix"></div>

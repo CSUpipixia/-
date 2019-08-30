@@ -21,6 +21,7 @@ public class LoginServlet extends HttpServlet {
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String accountname = req.getParameter("accountname");
         String password = req.getParameter("password");
+
         int login = employeeService.login(accountname, password);
         ServletContext sc = req.getServletContext();
         Object visitcount = sc.getAttribute("vc");
@@ -33,7 +34,7 @@ public class LoginServlet extends HttpServlet {
             req.setAttribute("error", "用户待审批，请稍候");
             req.getRequestDispatcher("/login.jsp").forward(req, resp);
         } else if (login == 1) {
-            req.getSession().setAttribute("loginUser", employeeService.getLoginUser());
+            req.getSession().setAttribute("loginUser", employeeService.getLoginUser());//存入session中，便于在jsp文件中直接引用
             resp.sendRedirect(req.getContextPath() + "/notifications");
         } else if (login == 2) {
             req.setAttribute("error", "用户审批未通过，请重新注册");
