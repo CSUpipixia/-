@@ -39,6 +39,13 @@
                         <a href="/meeting/changepassword">[修改密码]</a>
                         <a href="/meeting/logout">[退出登录]</a>
                     </c:if>
+
+                    <c:if test="${loginUser==null}">
+                        您未登录，请先
+                        <a href="/meeting">登录</a>
+                        或
+                        <a href="/meeting/reg">注册</a>
+                    </c:if>
                 </div>
                 <div class="clearfix"></div>
             </div>

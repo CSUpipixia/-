@@ -20,9 +20,9 @@ public class RegServlet extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        int loginEmpRole = ((Employee) req.getSession().getAttribute("loginUser")).getRole();
-        if (loginEmpRole != 1)
-            req.getRequestDispatcher("/notifications.jsp").forward(req, resp);
+//        int loginEmpRole = ((Employee) req.getSession().getAttribute("loginUser")).getRole();
+//        if (loginEmpRole != 1)
+//            req.getRequestDispatcher("/notifications.jsp").forward(req, resp);
 
         List<Department> list = departmentService.getAllDepartment();
         req.setAttribute("list", list);

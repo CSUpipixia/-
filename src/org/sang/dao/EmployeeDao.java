@@ -263,7 +263,7 @@ public class EmployeeDao {
             ps.setString(2, employee.getUsername());
             ps.setString(3, employee.getPhone());
             ps.setString(4, employee.getEmail());
-            ps.setInt(5, 1);
+            ps.setInt(5, employee.getStatus());
             ps.setInt(6, employee.getDepartmentid());
             ps.setString(7, "123456");
             ps.setInt(8, 2);

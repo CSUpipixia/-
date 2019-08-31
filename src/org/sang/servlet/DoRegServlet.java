@@ -32,6 +32,12 @@ public class DoRegServlet extends HttpServlet {
             req.getRequestDispatcher("/reg").forward(req, resp);
         } else {
             Employee employee = new Employee(employeename, accountname, phone, email, Integer.parseInt(deptid));
+            // 检查用户是否为管理员
+            if ((req.getSession().getAttribute("loginUser")) == null)
+                employee.setStatus(0);
+            else
+                employee.setStatus(1);
+
             int reg = employeeService.reg(employee);
             if (reg == 1) {
                 //注册成功

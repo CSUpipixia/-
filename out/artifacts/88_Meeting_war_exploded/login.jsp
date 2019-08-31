@@ -44,8 +44,8 @@
                         * 原始密码为123456，请及时修改
                     </div>
                     <input type="submit" class="btn btn-success" value="登录 Login"/>
-                    <input type="button" class="btn btn-success" value="返回 Back"
-                           onclick="window.history.back();"/>
+                    <input type="button" class="btn btn-success" value="注册 Register"
+                           onclick="window.location.pathname='/meeting/reg'"/>
                 </form>
             </div>
             <div class="col-md-4 blog-top-left-grid"></div>
