@@ -36,6 +36,9 @@ public class LoginServlet extends HttpServlet {
         } else if (login == 1) {
             req.getSession().setAttribute("loginUser", employeeService.getLoginUser());//存入session中，便于在jsp文件中直接引用
             resp.sendRedirect(req.getContextPath() + "/notifications");
+//            PrintWriter out = resp.getWriter();
+//            out.println("200");
+//            out.close();
         } else if (login == 2) {
             req.setAttribute("error", "用户审批未通过，请重新注册");
             req.getRequestDispatcher("/login.jsp").forward(req, resp);

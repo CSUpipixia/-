@@ -5,7 +5,7 @@ import java.sql.*;
 public class DBUtils {
     public static Connection getConnection() throws ClassNotFoundException, SQLException {
         Class.forName("com.mysql.jdbc.Driver");
-        return DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/meeting?serverTimezone=GMT%2B8&useSSL=false", "root", "mysql");
+        return DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/meeting?serverTimezone=GMT%2B8&useSSL=false", "root", "superxue");
     }
 
     public static void close(Connection connection) {
