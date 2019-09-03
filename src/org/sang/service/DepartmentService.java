@@ -17,6 +17,8 @@ public class DepartmentService {
         return departmentDao.getAllDepartment();
     }
 
+    public String getDepById(int departmentid){return departmentDao.getDepById(departmentid);}
+
     public int deleteDepById(int id) {
         return departmentDao.deleteDepById(id);
     }
@@ -24,4 +26,5 @@ public class DepartmentService {
     public int insert(String name) {
         return departmentDao.insert(name);
     }
+
 }

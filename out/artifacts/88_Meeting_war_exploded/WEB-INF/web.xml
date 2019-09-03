@@ -11,6 +11,16 @@
         <servlet-name>regServlet</servlet-name>
         <url-pattern>/reg</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>changeInfoServlet</servlet-name>
+        <servlet-class>org.sang.servlet.ChangeInfoServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>changeInfoServlet</servlet-name>
+        <url-pattern>/changeinfo</url-pattern>
+    </servlet-mapping>
+
     <servlet>
         <servlet-name>doRegServlet</servlet-name>
         <servlet-class>org.sang.servlet.DoRegServlet</servlet-class>
@@ -195,6 +205,35 @@
         <servlet-name>notificationServlet</servlet-name>
         <url-pattern>/notifications</url-pattern>
     </servlet-mapping>
+
+    //查看信息
+    <servlet>
+        <servlet-name>myInfoServlet</servlet-name>
+        <servlet-class>org.sang.servlet.MyInfoServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>myInfoServlet</servlet-name>
+        <url-pattern>/myinfo</url-pattern>
+    </servlet-mapping>
+
+    //查看图表
+    <!--<servlet>-->
+        <!--<servlet-name>ToChartServlet</servlet-name>-->
+        <!--<servlet-class>org.sang.servlet.ToChartServlet</servlet-class>-->
+    <!--</servlet>-->
+    <!--<servlet-mapping>-->
+        <!--<servlet-name>ToChartServlet</servlet-name>-->
+        <!--<url-pattern>/tochart</url-pattern>-->
+    <!--</servlet-mapping>-->
+    <servlet>
+        <servlet-name>MyChartServlet</servlet-name>
+        <servlet-class>org.sang.servlet.MyChartServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MyChartServlet</servlet-name>
+        <url-pattern>/chart</url-pattern>
+    </servlet-mapping>
+
     <servlet>
         <servlet-name>myBookingServlet</servlet-name>
         <servlet-class>org.sang.servlet.MyBookingServlet</servlet-class>

@@ -4,6 +4,8 @@
 <div class="Categories">
     <h3>个人中心</h3>
     <ul>
+        <li class="sidebar-menuitem"><a href="/meeting/myinfo">查看信息</a></li>
+
         <li class="sidebar-menuitem"><a href="/meeting/notifications">最新通知</a></li>
         <li class="sidebar-menuitem active"><a href="/meeting/mybooking">我的预定</a></li>
         <li class="sidebar-menuitem"><a href="/meeting/mymeeting">我的会议</a></li>
@@ -14,6 +16,7 @@
         <h3>用户管理</h3>
         <ul>
             <li class="sidebar-menuitem"><a href="departments">部门管理</a></li>
+            <li class="sidebar-menuitem"><a href="approveaccount">部门管理</a></li>
             <li class="sidebar-menuitem"><a href="reg">添加用户</a></li>
             <li class="sidebar-menuitem"><a href="serachemp">搜索用户</a></li>
         </ul>
@@ -32,3 +35,11 @@
         </c:if>
     </ul>
 </div>
+<c:if test="${loginUser.role==1}">
+<div class="Categories">
+    <h3>图表统计</h3>
+    <ul>
+        <li class="sidebar-menuitem"><a href="echarts_demo.jsp">查看图表</a></li>
+    </ul>
+</div>
+</c:if>

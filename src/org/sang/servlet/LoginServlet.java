@@ -8,6 +8,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.io.PrintWriter;
 
 public class LoginServlet extends HttpServlet {
     private EmployeeService employeeService = new EmployeeService();
@@ -36,7 +37,7 @@ public class LoginServlet extends HttpServlet {
         } else if (login == 1) {
             req.getSession().setAttribute("loginUser", employeeService.getLoginUser());//存入session中，便于在jsp文件中直接引用
             resp.sendRedirect(req.getContextPath() + "/notifications");
-//            PrintWriter out = resp.getWriter();
+            PrintWriter out = resp.getWriter();
 //            out.println("200");
 //            out.close();
         } else if (login == 2) {

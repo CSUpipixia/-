@@ -87,4 +87,32 @@ public class DepartmentDao {
         }
         return list;
     }
+
+    public String getDepById(int departmentid) {
+        Connection con = null;
+        PreparedStatement ps = null;
+        ResultSet rs = null;
+        String departmentName=null;
+        try {
+            con = DBUtils.getConnection();
+            ps = con.prepareStatement("select * from department where departmentid=?");
+            ps.setInt(1,departmentid);
+            rs = ps.executeQuery();
+
+//            rs.getString("departmentname");
+            while(rs.next())
+            {
+                departmentName=rs.getString("departmentname");
+            }
+            return departmentName;
+
+//            departmentName=new String("foolish");
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return "0";//return出错
+    }
+
 }

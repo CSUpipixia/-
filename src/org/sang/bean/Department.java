@@ -28,4 +28,6 @@ public class Department {
     public void setDepartmentname(String departmentname) {
         this.departmentname = departmentname;
     }
+
+
 }

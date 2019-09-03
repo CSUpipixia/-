@@ -1,6 +1,8 @@
 package org.sang.bean;
 //人员
 
+import org.sang.dao.DepartmentDao;
+
 public class Employee {
     private int employeeid;
     private String employeename;
@@ -10,10 +12,10 @@ public class Employee {
     private int status;//
 
     private int departmentid;
+    private String departmentname;
     private String password;
     private int credits;//信誉积分
     private int role;//
-
 
     public Employee(String employeename, String username, String phone, String email, int departmentid) {
         this.employeename = employeename;
@@ -43,6 +45,20 @@ public class Employee {
         this.email = email;
         this.status = status;
         this.departmentid = departmentid;
+        this.password = password;
+        this.role = role;
+        this.credits = credits;
+    }
+
+    public Employee(int employeeid, String employeename, String username, String phone, String email, int status, int departmentid, String departmentname, String password, int role, int credits) {
+        this.employeeid = employeeid;
+        this.employeename = employeename;
+        this.username = username;
+        this.phone = phone;
+        this.email = email;
+        this.status = status;
+        this.departmentid = departmentid;
+        this.departmentname = departmentname;
         this.password = password;
         this.role = role;
         this.credits = credits;
@@ -126,6 +142,15 @@ public class Employee {
 
     public void setCredits(int credits) {
         this.credits = credits;
+    }
+
+
+    public String getDepartmentname() {
+        return departmentname;
+    }
+
+    public void setDepartmentname(String departmentname) {
+        this.departmentname = departmentname;
     }
 
 }

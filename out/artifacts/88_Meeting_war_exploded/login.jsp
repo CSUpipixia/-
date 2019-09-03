@@ -15,38 +15,85 @@
     <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
     <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
+
 <body>
+<%--<jsp:include page="top.jsp"/>--%>
+<%--<!-- banner -->--%>
+<%--<div class="banner about-banner">--%>
+    <%--<div class="header about-header">--%>
+        <%--<div th:replace="/common/Common::Header"></div>--%>
+    <%--</div>--%>
+    <%--<div class="about-heading">--%>
+        <%--<div class="container">--%>
+            <%--<h2>Login <span style="font-weight:100; font-size: 36px;">登录</span></h2>--%>
+        <%--</div>--%>
+    <%--</div>--%>
+<%--</div>--%>
 <!-- //banner -->
+<%--<div class="blog">--%>
 <div class="login-wrapper">
     <!-- container -->
+    <%--<div class="container">--%>
+        <%--<div class="blog-top-grids">--%>
+            <%--<div class="col-md-4 blog-top-right-grid">--%>
+                <%--<jsp:include page="leftMenu.jsp"/>--%>
+            <%--</div>--%>
+            <%--<div class="col-md-4">--%>
+                <%--<form method="post" action="/meeting/login">--%>
+                    <%--<h3>登录信息</h3>--%>
+                    <%--<c:if test="${error!=null}">--%>
+                        <%--<div class="alert alert-danger" role="alert">${error}</div>--%>
+                    <%--</c:if>--%>
+                    <%--<div class="form-group">--%>
+                        <%--<label>账号名 ID</label>--%>
+                        <%--<input id="accountname" name="accountname" type="text" type="text" class="form-control"--%>
+                               <%--placeholder="请输入您的教职工账号"/>--%>
+                        <%--* 账号为您的教职工账号--%>
+                    <%--</div>--%>
+                    <%--<div class="form-group">--%>
+                        <%--<label>密码</label>--%>
+                        <%--<input id="new" name="password" type="password" type="text" class="form-control"--%>
+                               <%--placeholder="请输入您的密码"/>--%>
+                        <%--* 原始密码为123456，请及时修改--%>
+                    <%--</div>--%>
+                    <%--<input type="submit" class="btn btn-success" value="登录 Login"/>--%>
+                    <%--<input type="button" class="btn btn-success" value="注册 Register"--%>
+                           <%--onclick="window.location.pathname='/meeting/reg'"/>--%>
+                <%--</form>--%>
+            <%--</div>--%>
+            <%--<div class="col-md-4 blog-top-left-grid"></div>--%>
+            <%--<div class="clearfix"></div>--%>
     <div class="login">
         <div class="projectName">
             <span>会议室管理系统</span>
         </div>
-            <ul class="login-list">
-                <c:if test="${error!=null}">
-                    <li>
-                        <div class="alert alert-danger" role="alert">${error}</div>
-                    </li>
-                </c:if>
+        <ul class="login-list">
+            <c:if test="${error!=null}">
                 <li>
-                    <input id="accountname" name="accountname" type="text" placeholder="请输入您的账号"/>
+                    <div class="alert alert-danger" role="alert">${error}</div>
                 </li>
-                <li>
-                    <input id="password" name="password" type="password" placeholder="请输入您的密码"/>
-                </li>
-                <li>
-                    <input type="submit" class="btn" onclick="login()" value="登录 Login"/>
-                </li>
-                <li>
-                    没有账号, <a href="javascript:void(0)" onclick="window.location.pathname='/meeting/reg'" class="tar">立即注册！</a>
-                </li>
-            </ul>
+            </c:if>
+            <li>
+                <input id="accountname" name="accountname" type="text" placeholder="请输入您的账号"/>
+            </li>
+            <li>
+                <input id="password" name="password" type="password" placeholder="请输入您的密码"/>
+            </li>
+            <li>
+                <input type="submit" class="btn" onclick="login()" value="登录 Login"/>
+            </li>
+            <li>
+                没有账号, <a href="javascript:void(0)" onclick="window.location.pathname='/meeting/reg'" class="tar">立即注册！</a>
+            </li>
+        </ul>
     </div>
+    <!-- //container -->
 </div>
-</body>
-</html>
+<%--<jsp:include page="footer.jsp"/>--%>
 
+</body>
+
+</html>
 <script>
     function login() {
         var accountname = $("#accountname").val();
@@ -58,9 +105,11 @@
             success: function(res) {
                 window.location.pathname='/meeting/notifications';
             },
+            // error: function() {
+            //     alert("系统错误，请稍后重试！");
+            //     return false;
             error: function(err) {
                 alert(err);
-                return false;
             },
         })
     }
@@ -129,4 +178,3 @@
         color: #fff;
     }
 </style>
-

@@ -19,4 +19,5 @@ public class MeetingRoomService {
     public int update(MeetingRoom meetingRoom) {
         return meetingRoomDao.update(meetingRoom);
     }
+    public int updataCount(int id,int count){return meetingRoomDao.updataCount(id,count);}
 }

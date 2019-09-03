@@ -7,6 +7,15 @@
         <element id="directory" name="classes">
           <element id="module-output" name="Meeting" />
         </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/../../jackson/jackson-core-2.2.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../jackson/jackson-core-asl-1.8.8.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../jackson/jackson-databind-2.2.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../jackson/jackson-mapper-asl-1.8.8.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../jackson/jackson-annotations-2.2.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../jackson/jackson-module-jaxb-annotations-2.2.1.jar" />
+          <element id="library" level="project" name="gson-2.8.0" />
+        </element>
       </element>
     </root>
   </artifact>

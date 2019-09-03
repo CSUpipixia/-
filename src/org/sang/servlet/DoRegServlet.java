@@ -37,7 +37,6 @@ public class DoRegServlet extends HttpServlet {
                 employee.setStatus(0);
             else
                 employee.setStatus(1);
-
             int reg = employeeService.reg(employee);
             if (reg == 1) {
                 //注册成功

@@ -235,6 +235,7 @@ public class EmployeeDao {
         ResultSet rs = null;
         try {
             con = DBUtils.getConnection();
+//            SELECT * FROM employee e, department d WHERE e.username=? AND e.password=? AND e.departmentid = d.departmentid
             ps = con.prepareStatement("SELECT * FROM employee WHERE username=? AND password=?");
             ps.setString(1, username);
             ps.setString(2, password);
@@ -268,6 +269,35 @@ public class EmployeeDao {
             ps.setString(7, "123456");
             ps.setInt(8, 2);
             ps.setInt(9, 10);
+            return ps.executeUpdate();
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        } finally {
+            DBUtils.close(ps);
+            DBUtils.close(con);
+        }
+        return 0;
+    }
+
+    //以下为修改信息
+    public int changeInfo(Employee employee) {
+        if (isUsernameExists(employee.getUsername())) {
+            return -1;
+        }
+        Connection con = null;
+        PreparedStatement ps = null;
+        try {
+            con = DBUtils.getConnection();
+            ps = con.prepareStatement("UPDATE employee SET employeename=?, username=?, phone=? ,email=? where employeeid=?");
+            ps.setString(1, employee.getEmployeename());
+            ps.setString(2, employee.getUsername());
+//            ps.setInt(3, employee.getDepartmentid());
+            ps.setString(3, employee.getPhone());
+            ps.setString(4, employee.getEmail());
+            ps.setInt(5, employee.getEmployeeid());
+
             return ps.executeUpdate();
         } catch (ClassNotFoundException e) {
             e.printStackTrace();

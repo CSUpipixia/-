@@ -128,7 +128,7 @@
                                         <input class="form-control" type="hidden" name="empid" value="${emp.employeeid}">
 
                                         <c:if test="${emp.status==-1}">
-                                            <input class="btn btn-success btn-sm" value="激活账号" type="submit"></input>
+                                            <input class="btn btn-danger btn-sm" value="激活账号" type="submit"></input>
                                         </c:if>
                                     </form>
                                 </c:if>

@@ -21,7 +21,7 @@ public class BookMeetingServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         List<MeetingRoom> list = meetingRoomService.getAllMeetingRoom();
-        req.setAttribute("mrs", list);
+        req.getSession().setAttribute("mrs", list);
         req.getRequestDispatcher("/bookmeeting.jsp").forward(req, resp);
     }
 }

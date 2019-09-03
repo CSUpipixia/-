@@ -57,9 +57,12 @@
                             <td>${dep.departmentid}</td>
                             <td id="depname${dep.departmentid}">${dep.departmentname}</td>
                             <td>
-                                <a class="btn btn-success" href="javascript:void(0)" id="edit${dep.departmentid}"
+                                <%--<a class="btn btn-success" href="#" id="edit${dep.departmentid}"--%>
+                                    <a class="btn btn-success" href="javascript:void(0)" id="edit${dep.departmentid}"
                                    onclick="editDep(${dep.departmentid})">编辑</a>
-                                <a class="btn btn-warning" href="javascript:void(0)" style="display: none" id="cancel${dep.departmentid}"
+
+                                <%--<a class="btn btn-warning" href="#" style="display: none" id="cancel${dep.departmentid}"--%>
+                                    <a class="btn btn-warning" href="javascript:void(0)" style="display: none" id="cancel${dep.departmentid}"
                                    onclick="cancelEdit(${dep.departmentid},'${dep.departmentname}')">取消</a>
                                 <a class="btn btn-danger" href="/meeting/deletedep?depid=${dep.departmentid}">删除</a>
                             </td>
@@ -72,7 +75,6 @@
     </div>
 </div>
 <jsp:include page="footer.jsp"/>
-
 <script>
     function cancelEdit(depid, depName) {
         var cancelBtn = $("#cancel" + depid);
@@ -95,6 +97,11 @@
             //提交修改
             var children = ele.children("input");
             var val = children.val();
+            // $.post("/meeting/updateDep", {id: depid, depName: val}, function (msg) {
+            //     alert(msg);
+            //     cancelBtn.css("display", "none")
+            //     editBtn.html("编辑");
+            //     ele.html(val);
             $.ajax({
                 url: '/meeting/updateDep',
                 type: 'post',
@@ -110,12 +117,6 @@
                     return false;
                 },
             });
-            // $.post("/meeting/updateDep", {id: depid, depName: val}, function (msg) {
-            //     alert(msg);
-            //     cancelBtn.css("display", "none");
-            //     editBtn.html("编辑");
-            //     ele.html(val);
-            // });
         }
     }
 </script>

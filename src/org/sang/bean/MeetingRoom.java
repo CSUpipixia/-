@@ -8,6 +8,8 @@ public class MeetingRoom {
     private int status;
     private String description;
 
+    private int count;
+
     public MeetingRoom() {
     }
 
@@ -35,6 +37,16 @@ public class MeetingRoom {
         this.roomid = roomid;
         this.roomnum = roomnum;
         this.roomname = roomname;
+        this.capacity = capacity;
+        this.status = status;
+        this.description = description;
+    }
+
+    public MeetingRoom(int roomid, int roomnum, String roomname, int count,int capacity, int status, String description) {
+        this.roomid = roomid;
+        this.roomnum = roomnum;
+        this.roomname = roomname;
+        this.count=count;
         this.capacity = capacity;
         this.status = status;
         this.description = description;
@@ -86,5 +98,13 @@ public class MeetingRoom {
 
     public void setDescription(String description) {
         this.description = description;
+    }
+
+    public int getCount() {
+        return count;
+    }
+
+    public void setCount(int count) {
+        this.count = count;
     }
 }

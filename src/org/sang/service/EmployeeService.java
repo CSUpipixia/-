@@ -46,6 +46,7 @@ public class EmployeeService {
     public int reg(Employee employee) {
         return employeeDao.reg(employee);
     }
+    public int changeInfo(Employee employee){return employeeDao.changeInfo(employee);}
     public List<Employee> getEmpByDepId(int depId) {
         return employeeDao.getEmpByDepId(depId);
     }

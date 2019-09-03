@@ -20,7 +20,7 @@ public class MeetingRoomDao {
             ps = con.prepareStatement("select * from meetingroom;");
             rs = ps.executeQuery();
             while (rs.next()) {
-                MeetingRoom meetingRoom = new MeetingRoom(rs.getInt("roomid"), rs.getInt("roomnum"), rs.getString("roomname"), rs.getInt("capacity"), rs.getInt("status"), rs.getString("description"));
+                MeetingRoom meetingRoom = new MeetingRoom(rs.getInt("roomid"), rs.getInt("roomnum"), rs.getString("roomname"),rs.getInt("count"), rs.getInt("capacity"), rs.getInt("status"), rs.getString("description"));
                 list.add(meetingRoom);
             }
         } catch (ClassNotFoundException e) {
@@ -110,5 +110,27 @@ public class MeetingRoomDao {
     public static void main(String[] args) {
         MeetingRoom meetingRoomById = new MeetingRoomDao().getMeetingRoomById(6);
         System.out.println(meetingRoomById);
+    }
+
+    //更新部门使用次数
+    public int updataCount(int id,int count)
+    {
+        Connection con = null;
+        PreparedStatement ps = null;
+        try {
+            con = DBUtils.getConnection();
+            ps = con.prepareStatement("UPDATE meetingroom SET count=? WHERE roomid=?");
+            ps.setInt(1, count+1);
+            ps.setInt(2, id);
+            return ps.executeUpdate();
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        } finally {
+            DBUtils.close(ps);
+            DBUtils.close(con);
+        }
+        return -1;
     }
 }
