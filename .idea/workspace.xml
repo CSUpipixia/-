@@ -7,22 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ede8152a-7364-482a-97d9-7edec41de43d" name="Default" comment="更新登录界面使用ajax请求">
-      <change afterPath="$PROJECT_DIR$/web/images/bj.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/WEB-INF/classes/org/sang/dao/DBUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/WEB-INF/classes/org/sang/dao/DBUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/WEB-INF/classes/org/sang/dao/EmployeeDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/WEB-INF/classes/org/sang/dao/EmployeeDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/WEB-INF/classes/org/sang/servlet/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/WEB-INF/classes/org/sang/servlet/LoginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/departments.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/departments.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/images/~$00.pptx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/88_Meeting_war_exploded/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/dao/DBUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Meeting/org/sang/dao/DBUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/dao/EmployeeDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Meeting/org/sang/dao/EmployeeDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/servlet/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Meeting/org/sang/servlet/LoginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/sang/dao/DBUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/sang/dao/DBUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/sang/servlet/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/sang/servlet/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/departments.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/departments.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/~$00.pptx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/web/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/login.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,8 +39,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="57" column="30" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
+            <state relative-caret-position="280">
+              <caret line="14" column="66" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -136,8 +121,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/org/sang/dao/DBUtils.java" />
         <option value="$PROJECT_DIR$/web/departments.jsp" />
-        <option value="$PROJECT_DIR$/web/login.jsp" />
         <option value="$PROJECT_DIR$/src/org/sang/servlet/LoginServlet.java" />
+        <option value="$PROJECT_DIR$/web/login.jsp" />
       </list>
     </option>
   </component>
@@ -495,12 +480,20 @@
       <workItem from="1567182578398" duration="787000" />
       <workItem from="1567183553724" duration="372000" />
       <workItem from="1567184075239" duration="6602000" />
-      <workItem from="1567419868071" duration="883000" />
+      <workItem from="1567419868071" duration="2214000" />
     </task>
+    <task id="LOCAL-00001" summary="更新登录界面使用ajax请求">
+      <created>1567420764271</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1567420764271</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10652000" />
+    <option name="totallyTimeSpent" value="11983000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="83" y="-7" width="1460" height="878" extended-state="6" />
@@ -525,7 +518,7 @@
       <window_info anchor="bottom" id="Application Servers" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.32841823" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32841823" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.3297587" />
       <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
@@ -717,8 +710,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="57" column="30" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
+        <state relative-caret-position="280">
+          <caret line="14" column="66" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="66" />
         </state>
       </provider>
     </entry>

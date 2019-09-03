@@ -58,8 +58,8 @@
             success: function(res) {
                 window.location.pathname='/meeting/notifications';
             },
-            error: function() {
-                alert("系统错误，请稍后重试！");
+            error: function(err) {
+                alert(err);
                 return false;
             },
         })
