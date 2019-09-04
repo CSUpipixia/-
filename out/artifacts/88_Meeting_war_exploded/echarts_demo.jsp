@@ -64,15 +64,12 @@
 
             //7.请求成功后接收数据name+num两组数据
             success : function(result) {
-                console.log(result);
                 //result为服务器返回的json对象
                 if (result) {
                     //8.取出数据存入数组
                     for (var i = 0; i < result.length; i++) {
                         names.push(result[i].roomname); //迭代取出类别数据并填入类别数组
-                    }
-                    for (var i = 0; i < result.length; i++) {
-                        nums.push(result[i].count); //迭代取出销量并填入销量数组
+                        nums.push(result[i].count);     //取出销量并填入销量数组
                     }
 
                     myChart.hideLoading(); //隐藏加载动画

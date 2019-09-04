@@ -226,6 +226,24 @@
         <!--<url-pattern>/tochart</url-pattern>-->
     <!--</servlet-mapping>-->
     <servlet>
+        <servlet-name>GetStatisticData</servlet-name>
+        <servlet-class>org.sang.servlet.getStatisticDataServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GetStatisticData</servlet-name>
+        <url-pattern>/GetStatisticData</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>GetDeductStatisticData</servlet-name>
+        <servlet-class>org.sang.servlet.GetDeductStatisticDataServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GetDeductStatisticData</servlet-name>
+        <url-pattern>/GetDeductStatisticData</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
         <servlet-name>MyChartServlet</servlet-name>
         <servlet-class>org.sang.servlet.MyChartServlet</servlet-class>
     </servlet>

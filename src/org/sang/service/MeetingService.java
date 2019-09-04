@@ -56,4 +56,5 @@ public class MeetingService {
     public int deductCreditsById(int mid, int deductcredit) {
         return meetingDao.deductCreditsById(mid, deductcredit);
     }
+    public List<Integer> getDeductCreditStatisticData(int days) { return meetingDao.getDeductCreditStatisticData(days); }
 }

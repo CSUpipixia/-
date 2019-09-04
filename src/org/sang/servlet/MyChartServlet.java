@@ -36,14 +36,11 @@ public class MyChartServlet extends HttpServlet {
 
         String result = mapper.writeValueAsString(list); // 将list中的对象转换为Json字符串
 
-
-        System.out.println(result);
-
         // 将json字符串数据返回给前端
         resp.setCharacterEncoding("utf-8");
         resp.setContentType("application/json; charset=utf-8");
         PrintWriter out = resp.getWriter();
-        out.write(result.toString());
+        out.write(result);
         out.close();
 
     }

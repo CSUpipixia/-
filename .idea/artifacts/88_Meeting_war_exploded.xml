@@ -15,6 +15,7 @@
           <element id="file-copy" path="$PROJECT_DIR$/../../jackson/jackson-annotations-2.2.1.jar" />
           <element id="file-copy" path="$PROJECT_DIR$/../../jackson/jackson-module-jaxb-annotations-2.2.1.jar" />
           <element id="library" level="project" name="gson-2.8.0" />
+          <element id="library" level="project" name="jackson" />
         </element>
       </element>
     </root>

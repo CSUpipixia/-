@@ -1,6 +1,8 @@
 package org.sang.dao;
 
+import javafx.util.Pair;
 import org.sang.bean.Meeting;
+import org.sang.bean.StatisticUnit;
 
 import java.sql.*;
 import java.util.ArrayList;
@@ -425,6 +427,122 @@ public class MeetingDao {
             DBUtils.close(con);
         }
         return -1;
+
+
+    }
+
+    public List<StatisticUnit> allMeetingRoomsStatistic(int days) {
+        Connection con = null;
+        PreparedStatement ps = null;
+        ResultSet rs = null;
+        List<StatisticUnit> res = new ArrayList<>();
+
+        try {
+            con = DBUtils.getConnection();
+            ps = con.prepareStatement("select * from meeting LEFT JOIN meetingroom ON (meeting.roomid = meetingroom.roomid) WHERE TO_DAYS(NOW()) - TO_DAYS(endtime) <= ? AND TO_DAYS(NOW()) - TO_DAYS(endtime) > 0;");
+            ps.setInt(1, days);
+            rs = ps.executeQuery();
+            while (rs.next()) {
+                boolean flag = false;
+
+                for (StatisticUnit checkingUnit:res) {
+                    if (checkingUnit.getMeetingRoomId() == rs.getInt("roomid")) {
+                        checkingUnit.countUp();
+                        flag = true;
+                        break;
+                    }
+                }
+
+                if (!flag) {
+                    res.add(new StatisticUnit(rs.getInt("roomid"), rs.getString("roomname")));
+                }
+            }
+
+            for (StatisticUnit checkingUnit:res) {
+                checkingUnit.setFrequencyList(meetingRoomStatistic(days, checkingUnit.getMeetingRoomId()));
+            }
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        } finally {
+            DBUtils.close(rs);
+            DBUtils.close(ps);
+            DBUtils.close(con);
+        }
+        return res;
+    }
+
+    public List<Integer> meetingRoomStatistic(int days, int roomId) {
+        Connection con = null;
+        PreparedStatement ps = null;
+        ResultSet rs = null;
+        List<Integer> res = new ArrayList<>();
+
+        try {
+            con = DBUtils.getConnection();
+            ps = con.prepareStatement("select * from meeting WHERE TO_DAYS(NOW()) - TO_DAYS(endtime) = ? AND TO_DAYS(NOW()) - TO_DAYS(endtime) > 0 AND roomid = ?;");
+
+            while(days >= 0) {
+                ps.setInt(1, days);
+                ps.setInt(2, roomId);
+                rs = ps.executeQuery();
+                Integer temp = new Integer(0);
+                while(rs.next()) {
+                    temp++;
+                }
+                res.add(temp);
+                days--;
+            }
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        } finally {
+            DBUtils.close(rs);
+            DBUtils.close(ps);
+            DBUtils.close(con);
+        }
+
+        return res;
+    }
+
+    public List<Integer> getDeductCreditStatisticData(int days) {
+        Connection con = null;
+        PreparedStatement ps = null;
+        ResultSet rs = null;
+        List<Integer> res = new ArrayList<>();
+
+        Integer res0 = new Integer(0);
+        Integer res1 = new Integer(0);
+
+        try {
+            con = DBUtils.getConnection();
+            ps = con.prepareStatement("select * from meeting WHERE TO_DAYS(NOW()) - TO_DAYS(endtime) <= ? AND TO_DAYS(NOW()) - TO_DAYS(endtime) > 0;");
+            ps.setInt(1, days);
+
+            rs = ps.executeQuery();
+
+            while (rs.next()) {
+                if(rs.getInt("deductcredits") > 0){
+                    res1++;
+                } else {
+                    res0++;
+                }
+            }
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        } finally {
+            DBUtils.close(rs);
+            DBUtils.close(ps);
+            DBUtils.close(con);
+        }
+
+        res.add(res0);
+        res.add(res1);
+        return res;
     }
 
     public static void main(String[] args) {
